@@ -1,0 +1,101 @@
+@keyframes fanao {
+    50%{ transform: scale(1.03, 1.01);}
+    700%{ transform: scale(1, 1);}
+    }
+.fa-file-pdf{
+    color: #0f63d6;
+}
+
+
+.container_milieu{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.titre_milieu{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    width: 100%;
+ 
+}
+.container_bloc_milieu{
+    width: 100%;
+}
+.titre_milieu_numero{
+    text-transform: uppercase;
+    margin: 2rem;
+  
+}
+.container_thematique_varia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-top: solid 0.4px rgba(0, 0, 0, 0.164) ;
+
+
+}
+.titre_thematique_varia{
+    font-size: 1.8rem;
+
+    margin-top: 1rem;
+}
+.box_thematique_varia{
+    text-decoration: none;
+display: flex;
+flex-direction: column;
+box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+background: hsl(0 0% 100%);
+color: hsl(200 50% 20%);
+border-radius: 5px;
+border: 1px solid hsl(0 0% 83%);
+margin-top: 1rem;
+width: 80%;
+padding: 1rem;
+
+}
+.box_thematique_varia:hover{
+animation-name: fanao;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+
+}
+.numero_titre{
+    display: flex;
+    flex-direction: column;
+}
+.numero_artc{
+    padding-bottom: 0.7rem ;
+    font-weight: 700;
+    
+}
+.icon_pdf_milieu{
+    border: solid 1px #0f63d6;
+    padding: 0.4rem;
+    width: 70px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_pdf_milieu:hover{
+    background-color: #0f62d615;
+}
+.fa-battle-net{
+    color: #0f63d6 ;
+}
+.pdf_nom_milieu{
+    padding:0.3rem; 
+    text-transform: uppercase;
+    color: #0f63d6 ;
+}
+
+

@@ -1,0 +1,56 @@
+.pas_affihe{
+    display: none;
+}
+
+.container_gauche_droite{
+    border-right: solid 0.4px rgba(0, 0, 0, 0.164)  ;
+}
+.box_bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    border-bottom:solid 0.4px rgba(0, 0, 0, 0.164)  ;
+}
+
+.lien_article{
+    display: flex;
+    flex-direction: column;
+    background-color: white    ;
+    width: 100%;
+}
+.titre_artc{
+    padding: 0.4rem;
+    text-decoration: none;
+    color: #0f63d6  ;
+}
+.titre_artc:hover{
+    color: rgba(83, 24, 24, 0.678);
+
+}
+
+.icon_pdf{
+    border: solid 1px #0f63d6;
+    padding: 0.2rem;
+    width: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_pdf:hover{
+    background-color: #0f62d615;
+}
+.fa-battle-net{
+    color: #0f63d6 ;
+}
+.pdf_nom{
+    padding:0.15rem; 
+    text-transform: uppercase;
+    color: #0f63d6 ;
+    font-size: 0.8rem;
+}

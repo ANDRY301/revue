@@ -1,0 +1,15 @@
+.contanier_premier{
+ min-height: 98vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+
+.container_not_found{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

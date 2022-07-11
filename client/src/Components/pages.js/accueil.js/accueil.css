@@ -1,0 +1,7 @@
+.accueil_container{
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

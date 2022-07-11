@@ -1,0 +1,38 @@
+.droite_container_gauche_droite{
+    margin-bottom: 1rem;
+    border-left: solid 0.4px rgba(0, 0, 0, 0.164)  ;
+  
+}
+.droite_box_bloc{
+    border-bottom:solid 0.4px rgba(0, 0, 0, 0.164)  ;
+    margin-bottom: 0.74rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.droite_container_gauche_droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+ 
+}
+
+.droite_lien_article{
+    margin-bottom: 0.1rem;
+}
+.droite_titre_text_box{
+    margin-top: 0.6rem;
+  
+}
+
+.droite_titre_artc{
+  text-decoration: none;
+  color: #0f63d6  ;
+ text-transform: lowercase;
+
+}
+.droite_titre_artc:hover{
+    color: rgba(83, 24, 24, 0.678);
+}
